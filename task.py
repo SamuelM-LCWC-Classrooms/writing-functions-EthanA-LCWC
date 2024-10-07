@@ -27,7 +27,7 @@ def reverse(string):
     #    new_string += i
     #return str(new_string)
 
-def fibonacci(n):
+def fib(n):
     if n == 0:
         return n
     elif n == 1:
