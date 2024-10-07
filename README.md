@@ -67,4 +67,4 @@ fib(2) ➞ 1
 fib(8) ➞ 21
 ```
 
-The function must be recursive, name the function _Fibonacci_ and have it take one interger argument called _N_
+The function must be recursive, name the function _fib_ and have it take one interger argument called _N_

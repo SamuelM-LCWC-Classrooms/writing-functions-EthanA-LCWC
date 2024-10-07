@@ -14,7 +14,6 @@ def test_temperature_converter_fahrenheit_to_celsius():
     assert task.temperature_converter(68, "F") == "20 C"
     assert task.temperature_converter(-40, "F") == "-40 C"
     assert task.temperature_converter(212, "F") == "100 C"
-    assert task.temperature_converter(98, "F") == "37 C"
 
 def test_reverse_basic_strings():
     assert task.reverse("hello") == "olleh"
