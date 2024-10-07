@@ -33,7 +33,7 @@ def fib(n):
     elif n == 1:
         return n
     else:
-        return fibonacci(n-2) + fibonacci(n-1)
+        return fib(n-2) + fib(n-1)
     #num1 = 0
     #num2 = 1
     #for i in range(n-1):
